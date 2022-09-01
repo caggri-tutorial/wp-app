@@ -67,6 +67,7 @@ metadata:
   labels:
     app: wordpress
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: wordpress
@@ -120,6 +121,7 @@ metadata:
   labels:
     app: wordpress
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: wordpress
